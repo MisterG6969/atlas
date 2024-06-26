@@ -9,5 +9,3 @@ The next page outlines the project’s implementation phases with a brief overvi
 of what to expect. You will be provided study materials and a list of exercises that you
 are advised to solve in order. Look out for the following symbol indicating
 
-
-Yo yo yo!
