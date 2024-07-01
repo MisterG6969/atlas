@@ -1,0 +1,135 @@
+/* src/app/app.component.scss */
+
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  body {
+    background-color: #f0f4f8;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .container {
+    width: 80%;
+    max-width: 1200px;
+    background-color: #fff;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  header {
+    background-color: #2196F3;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.5em;
+  }
+  
+  .logo {
+    font-weight: bold;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2.5em;
+    color: #333;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+  }
+  
+  .date-picker-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    padding: 20px;
+  }
+  
+  label {
+    font-size: 1.2em;
+    color: #333;
+    display: flex;
+    align-items: center;
+  }
+  
+  input[type="date"] {
+    margin-left: 10px;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+  }
+  
+  input[type="date"]:focus {
+    border-color: #2196F3;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  li {
+    margin: 10px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, border-color 0.3s ease-in-out;
+    background-color: #fff;
+  }
+  
+  li:hover {
+    transform: scale(1.05);
+    border-color: #2196F3;
+  }
+  
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-bottom: 2px solid #ddd;
+  }
+  
+  footer {
+    background-color: #2196F3;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 0.9em;
+  }
+  
+  @media (max-width: 600px) {
+    h1 {
+      font-size: 2em;
+    }
+  
+    .date-picker-container {
+      flex-direction: column;
+    }
+  
+    label {
+      margin-bottom: 10px;
+    }
+  
+    input[type="date"] {
+      margin-left: 0;
+    }
+  }
+  

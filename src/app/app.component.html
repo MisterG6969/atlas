@@ -1,0 +1,23 @@
+<div class="container">
+  <header>
+    <div class="logo">🚀 NASA Image Viewer</div>
+  </header>
+  
+  <main>
+    <h1>NASA Image of the Day</h1>
+    <div class="date-picker-container">
+      <label for="date">Select Date:
+        <input type="date" id="date" [value]="date" (change)="onDateChange($event)" />
+      </label>
+    </div>
+<ul>
+  <li>
+    <img [src]="url" alt="NASA APOD" style="max-width: 100%; height: auto;">
+  </li>
+</ul>
+</main>
+  
+<footer>
+  <p>&copy; 2024 NASA Image Viewer. All Rights Reserved.</p>
+</footer>
+</div>
